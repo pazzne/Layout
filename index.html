@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>华为官网</title>
+	<link rel="stylesheet" href="./css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+   <div class="main">
+      <!-- 导航栏 -->
+      <div class="nav">
+         <div class="logo"><img src="./img/logo.png" /></div>
+         <div class="think icon"><a href="#">&#xe85f;&nbsp;&nbsp;我想..</a></div>
+         <div class="nav_text">
+             <div><a href="#">个人及家用产品</a></div>
+             <div><a href="#">商用解决方案</a></div>
+             <div><a href="#">技术支持</a></div>
+             <div><a href="#">合作伙伴</a></div>
+             <div><a href="#">开发者</a></div>
+             <div><a href="www.jd.com">华为商城</a></div>
+         </div>
+         <div class="search icon">&#xe671;</div>
+      </div>
+      <!-- banner图 -->
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="./img/banner_img4.jpg"/></div>
+		        <div class="swiper-slide"><img src="./img/banner_img2.jpg"/></div>
+		        <div class="swiper-slide"><img src="./img/banner_img1.jpg"/></div>
+		      </div>
+    		  <!-- 如果需要分页器 -->
+    		  <div class="swiper-pagination"></div>
+    		    
+    		  <!-- 如果需要导航按钮 -->
+    		  <div class="swiper-button-prev"></div>
+    		  <div class="swiper-button-next"></div>
+      </div>
+      <!-- content内容 -->
+		  <div class="content dowebok">
+        <div class="row">
+          <div class="content_left wow rollIn">
+               <div class="content_img"><img src="./img/content_img1.jpg" /></div>
+               <h1>应势而为、勇于担当</h1>
+          </div>
+          <div class="content_right wow swing" data-wow-iteration="2">
+               <div class="content_img"><img src="./img/content_img2.jpg" /></div>
+               <h1>共建更美好的全联接世界</h1>
+          </div>
+        </div>
+  	    <div class="row">
+          <div class="content_left wow rollIn" data-wow-delay="0.5s">
+               <div class="content_img"><img src="./img/content_img3.jpg" /></div>
+               <h1>每一拍都是大片</h1>
+          </div>
+          <div class="content_right wow bounceInRight" data-wow-delay="1s">
+               <div class="content_img"><img src="./img/content_img4.jpg" /></div>
+               <h1>移动创造未来</h1>
+          </div>
+  	    </div>
+  	    <div class="row">
+          <div class="content_left wow rollIn" data-wow-delay="1s">
+            <div class="content_img"><img src="./img/content_img5.jpg" /></div>
+            <h1>改造、提升、革新，XL Axiata<br>的3R数字化战略</h1>
+          </div>
+          <div class="content_right wow bounceInRight" data-wow-delay="1.5s">
+            <div class="content_img"><img src="./img/content_img6.jpg" /></div>
+            <h1>让视频成为运营商增长的新动力</h1>
+          </div>
+        </div>
+        <div class="videoImg">
+           <p>共建美好的全联接时代</p>
+           <div class="videoBtn"><img src="./img/video-btn.png" /></div>
+        </div>
+        <div class="videoCon">
+          <div class="videoBg">
+            <video id="video" style="display: none;" src="./img/stove.mkv" width="900" height="500">
+            当前浏览器不支持video直接播放，点击这里下载视频：<a href="myvideo.webm">下载视频</a>
+            </video>
+            <canvas id="canvas" width="900" height="500"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="newsList">
+        <div class="news">
+            <h2><a href="#">新闻</a></h2>
+            <div>
+               <a href="#">无线全云化架构持续演讲驱动5G时代全行业发展的引擎</a>
+               <p>2017-4-13</p>
+            </div>
+            <div>
+               <a href="#">华为提倡网络创新，助力运行商持续增长</a>
+               <p>2017-4-13</p>
+            </div>
+            <div>
+               <a href="#">华为服务希望成为运营商的商业问题解决者</a>
+               <p>2017-4-13</p>
+            </div>
+        </div>
+        <div class="active">
+            <h2><a href="#">展会活动</a></h2>
+            <div><img src="./img/news_img.jpg" /></div>
+            <span><a href="#">2017汗诺威工业博览会</a></span>
+            <p>新ICT，迈向数字化转型之路<br>德国，汉诺威 4月24日-28日</p>
+        </div>
+        <div class="active_meet">
+            <div><img src="./img/content_img2.jpg" /></div>
+            <span><a href="#">2017华为全球分析师大会(英文)</a></span>
+            <p>Go Digital, Go Cloud<br>中国，深圳 4月11日-13日</p>
+        </div>
+      </div>
+
+      <div class="right_iconbox">
+        <a href="#"><div class="icon_top"></div></a>
+        <a href="#"><div class="icon_news"></div></a>
+        <a href="#"><div class="icon_emails"></div></a>
+        <a href="#"><div class="icon_tels"></div></a>
+      </div>
+
+      <div class="footer">
+        <div class="footer_list">
+          <ul class="visitor">
+             <li>按访问者</li>
+             <li><a href="#">个人用户</a></li>
+             <li><a href="#">企业用户</a></li>
+             <li><a href="#">运营商用户</a></li>
+             <li><a href="#">合作伙伴</a></li>
+             <li><a href="#">新闻媒体</a></li>
+             <li><a href="#">开发者</a></li>
+             <li><a href="#">供应商</a></li>
+             <li><a href="#">求职者</a></li>
+          </ul>
+          <ul class="aboutHua">
+             <li>关于华为</li>
+             <li><a href="#">公司简介</a></li>
+             <li><a href="#">公司治理</a></li>
+             <li><a href="#">高管信息</a></li>
+             <li><a href="#">债券投资者关系</a></li>
+             <li><a href="#">可持续发展</a></li>
+             <li><a href="#">网络安全</a></li>
+             <li><a href="#">出版物</a></li>
+             <li><a href="#">公司年报</a></li>
+          </ul>
+          <ul class="newMeet">
+             <li>新闻&展会</li>
+             <li><a href="#">新闻</a></li>
+             <li><a href="#">安全通告</a></li>
+             <li><a href="#">展会活动</a></li>
+             <li><a href="#">行业洞察</a></li>
+             <li><a href="#">全联接世界</a></li>
+             <li><a href="#">全球联接指数</a></li>
+          </ul>
+          <ul >
+             <li>快速链接</li>
+             <li><a href="#">华为商城</a></li>
+             <li><a href="#">荣耀官网</a></li>
+             <li><a href="#">产品定义社区</a></li>
+             <li><a href="#">心声社区</a></li>
+             <li><a href="#">除名查询</a></li>
+             <li><a href="#">在线反馈</a></li>
+          </ul>
+          <div class="footer_follow">
+            <p>关注我们</p>
+            <div>
+                <div class="weiB"></div>
+                <div class="In"></div>
+            </div>
+            <div class="weiX"><img src="./img/hw.jpg" ></div>
+            <p>官方微信</p>
+          </div>
+        </div>
+        <div class="version">
+          <p>©2017&nbsp;华为技术有限公司&nbsp;&nbsp;&nbsp;粤A2-20044005号</p>
+          <div>
+             <a href="#">法律声明</a>
+             <a href="#">隐私保护</a>
+             <a href="#">联系我们</a>
+          </div>
+        </div>
+      </div>
+   </div>
+	
+	<script src="js/jquery-3.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+	<script src="js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/wow.min.js"></script>
+	<script> 
+	  /*设置banner图轮播*/       
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    autoplay:3000,
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	    
+	    // 如果需要前进后退按钮
+	    nextButton: '.swiper-button-next',
+	    prevButton: '.swiper-button-prev', 
+	  })  
+
+	  //content
+	  if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+	  };      
+	</script>
+</body>
+</html>
